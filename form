@@ -1,0 +1,47 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width,initial-scale=1">
+    <title></title>
+</head>
+<body>
+    <centre>
+        <h1>Registration form</h1>
+    <form>
+        <div>
+        <label for="firstname">First Name:</label>
+        </div>
+        <div>
+        <input type="text" name="firstname"placeholder="First name" id="firstname"></div>
+        <div>
+        <label for="lasttname">Last Name:</label>
+        </div>
+        <div>
+        <input type="text" name="lastname"placeholder="last name" id="lastname"></div>
+        <div>
+        <label for="email">Email:</label>
+        </div>
+        <div>
+        <input type="email" name="email"placeholder="email" id="email"></div>
+        <label for="password">Password:</label>
+        </div>
+        <div>
+        <input type="passsword" name="password"placeholder="password" id="password"></div>
+        <label for="age">Age:</label>
+        </div>
+        <div>
+        <input type="number" name="age"placeholder="age" id="age"></div>
+        <!--select from some options -->
+        <label for="Month">When do you want to start classes?</label>
+        <select name="month">
+            <option>Select month</option>
+            <option value="January">January</option>
+            <option value="February">February</option>
+        </select></div>
+        <p>Gender</p>
+        <div></div><input type="radio" name="gender"><label>Male</label></div>
+        <div></div><input type="radio" name="gender"><label>Female</label></div>
+    </form>
+    </centre>
+</body>
+</html>
